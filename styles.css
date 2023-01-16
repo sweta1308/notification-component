@@ -25,11 +25,7 @@ body {
     font-weight: 800;
 }
 
-.first .gray:hover {
-    color: hsl(225, 54%, 40%);
-}
-
-.second .angela:hover {
+.blue-hover:hover {
     color: hsl(225, 54%, 40%);
 }
 
