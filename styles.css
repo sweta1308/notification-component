@@ -142,6 +142,7 @@ strong {
 
     .list {
         margin: 5px 12px;
+        line-height: 4px;
     }
 
     .header {
