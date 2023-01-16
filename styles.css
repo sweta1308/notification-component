@@ -7,21 +7,30 @@ body {
     width: 600px;
     /* height: 1000px; */
     margin: auto;
-    padding: 10px;
+    padding: 7px;
+    padding-bottom: 3px;
     padding-top: 0.5px;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 1rem;
 }
 
 .header {
-    margin: 20px 30px 10px;
+    margin: 10px 30px 10px;
     display: flex;
     justify-content: space-between;
 }
 
 .heading {
     font-weight: 800;
+}
+
+.first .gray:hover {
+    color: hsl(225, 54%, 40%);
+}
+
+.second .angela:hover {
+    color: hsl(225, 54%, 40%);
 }
 
 .count {
@@ -38,23 +47,29 @@ body {
     border: none;
     cursor: pointer;
     color: hsl(219, 12%, 42%);
+    font-weight: 600;
+}
+
+.read-mark:hover {
+    color: hsl(225, 54%, 40%);
 }
 
 .list {
     display: flex;
     align-items: center;
-    margin: 8px 20px;
-    padding: 10px 20px;
+    margin: 5px 17px;
+    padding: 7px 20px;
     line-height: 4px;
     font-size: 13px;
+    cursor: pointer;
 }
 
 img {
-    width: 40px;
+    width: 35px;
 }
 
 .first, .second, .third {
-    background-color: hsl(210, 60%, 98%);
+    background-color: hsl(214, 54%, 97%);
     border-radius: 5px;
 }
 
@@ -78,4 +93,40 @@ strong {
     color: hsl(219, 12%, 42%);
     font-weight: 799;
 }
+
+.border {
+    border: solid 1px hsl(218, 27%, 86%);
+    width: 445px;
+    position: relative;
+    top: -17px;
+    left: 90px;
+    padding: 12px;
+    border-radius: 0.4rem;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.border:hover {
+    background-color: hsl(219, 90%, 92%);
+}
+
+.chess {
+    color: hsl(225, 54%, 40%);
+    font-weight: 800;
+}
+
+.time {
+    color: hsl(221, 12%, 69%);
+}
+
+.chess-img {
+    position: relative;
+    left: 155px;
+}
+
+.chess-img:hover {
+    border: solid 3px hsl(218, 83%, 88%);
+    border-radius: 0.4rem;
+}
+
 
