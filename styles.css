@@ -140,4 +140,8 @@ strong {
         position: relative;
         left: 15px;
     }
+
+    .header {
+        margin: 5px 15px 5px;
+    }
   }
