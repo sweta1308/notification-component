@@ -128,7 +128,7 @@ strong {
 @media only screen and (max-width:480px){
     .main-body{
         width: 400px;
-        margin: auto;
+        margin: 5px auto;
     }
 
     .border {
