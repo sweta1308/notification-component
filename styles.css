@@ -133,11 +133,11 @@ strong {
     }
 
     .border {
-        width: 300px;
+        width: 250px;
     }
 
     .chess-img {
         position: relative;
-        left: 70px;
+        left: 50px;
     }
   }
