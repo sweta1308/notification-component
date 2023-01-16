@@ -127,8 +127,12 @@ strong {
 
 @media only screen and (max-width:480px){
     .main-body{
-        width: 250px;
-        height: 300px;
+        width: 450px;
         margin: auto;
+        line-height: normal;
+    }
+
+    .border {
+        width: 500px;
     }
   }
