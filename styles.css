@@ -127,12 +127,17 @@ strong {
 
 @media only screen and (max-width:480px){
     .main-body{
-        width: 450px;
+        width: 400px;
         margin: auto;
         line-height: normal;
     }
 
     .border {
-        width: 500px;
+        width: 300px;
+    }
+
+    .chess-img {
+        position: relative;
+        left: 70px;
     }
   }
