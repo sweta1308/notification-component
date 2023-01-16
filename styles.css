@@ -1,0 +1,81 @@
+body {
+    background-color: hsl(210, 63%, 97%);
+}
+
+.main-body {
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    /* height: 1000px; */
+    margin: auto;
+    padding: 10px;
+    padding-top: 0.5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 1rem;
+}
+
+.header {
+    margin: 20px 30px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    font-weight: 800;
+}
+
+.count {
+    background-color: hsl(224, 21%, 14%);
+    color: hsl(0, 0%, 100%);
+    padding: 2px 10px;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.read-mark {
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    color: hsl(219, 12%, 42%);
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin: 8px 20px;
+    padding: 10px 20px;
+    line-height: 4px;
+    font-size: 13px;
+}
+
+img {
+    width: 40px;
+}
+
+.first, .second, .third {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 5px;
+}
+
+.para {
+    line-height: normal;
+}
+
+.text {
+    margin: 0 20px;
+}
+
+p{
+    color: hsl(219, 12%, 42%);
+}
+
+strong {
+    color: black;
+}
+
+.gray {
+    color: hsl(219, 12%, 42%);
+    font-weight: 799;
+}
+
