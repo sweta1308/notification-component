@@ -141,6 +141,10 @@ strong {
         left: 15px;
     }
 
+    .list {
+        margin: 5px 12px;
+    }
+
     .header {
         margin: 5px 15px 5px;
     }
